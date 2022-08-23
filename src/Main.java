@@ -18,42 +18,42 @@ public class Main {
         }
 
         if (gameStart) {
-            System.out.println("Enter a year: ");
+            System.out.print("Enter a year: ");
             int year = sc.nextInt();
             sc.nextLine();
 
-            System.out.println("Enter a holiday: ");
+            System.out.print("Enter a holiday: ");
             String holiday = sc.nextLine();
 
-            System.out.println("Enter a noun: ");
+            System.out.print("Enter a noun: ");
             String noun = sc.nextLine();
 
-            System.out.println("Enter a place: ");
+            System.out.print("Enter a place: ");
             String place = sc.nextLine();
 
-            System.out.println("Enter a famous person: ");
+            System.out.print("Enter a famous person: ");
             String famousPerson = sc.nextLine();
 
-            System.out.println("Enter an adjective: ");
+            System.out.print("Enter an adjective: ");
             String adjective = sc.nextLine();
 
-            System.out.println("Enter a number greater than 1 (can be a decimal): ");
+            System.out.print("Enter a number greater than 1 (can be a decimal): ");
             double num = sc.nextDouble();
             sc.nextLine();
 
-            System.out.println("Enter a plural body part: ");
+            System.out.print("Enter a plural body part: ");
             String bodyPart = sc.nextLine();
 
-            System.out.println("Enter a verb: ");
+            System.out.print("Enter a verb: ");
             String verb = sc.nextLine();
 
-            System.out.println("Enter another adjective: ");
+            System.out.print("Enter another adjective: ");
             String adjective2 = sc.nextLine();
 
-            System.out.println("Enter another noun: ");
+            System.out.print("Enter another noun: ");
             String noun2 = sc.nextLine();
 
-            System.out.println("Enter a food: ");
+            System.out.print("Enter a food: ");
             String foodItem = sc.nextLine();
 
             System.out.println("I can't believe it's already " + holiday + " in " + year + "!");
